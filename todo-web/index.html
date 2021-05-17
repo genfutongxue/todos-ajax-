@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta charset="utf-8" />
+  <title>React App</title>
+
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+  <div id="root">
+    <div class="todo-container">
+      <div class="todo-wrap">
+        <div class="todo-header">
+          <input type="text" placeholder="请输入你的任务名称，按回车键确认" />
+        </div>
+        <h3 class="todo-none">欧呦！竟然没有任务了……</h3>
+        <ul class="todo-main">
+          <!-- <li>
+              <label>
+                <input type="checkbox" id=""/>
+                <span>xxxxx</span>
+              </label>
+              <button class="btn btn-danger" style="display: none">
+                删除
+              </button>
+            </li> -->
+        </ul>
+        <div class="todo-footer">
+          <!-- <label>
+            <input type="checkbox" />
+          </label>
+          <span>
+            <span>已完成 <i id="doneNum">0</i></span> / 全部
+            <i id="totalNum">0</i>
+          </span>
+          <button class="btn btn-danger">清除已完成任务</button> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./function/clearChecked.js"></script>
+  <script src="./function/isCheckAll.js"></script>
+  <script src="./function/obj2str.js"></script>
+  <script src="./function/ajaxPost.js"></script>
+  <script src="./index.js"></script>
+</body>
+
+</html>
